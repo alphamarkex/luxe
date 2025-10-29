@@ -1597,6 +1597,22 @@
     object-fit: cover;
   }
 }
+     @media (max-width: 768px) {
+    .top-bar-content {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .contact-info {
+        display: none;
+    }
+    
+    .social-icons {
+        display: flex;
+        gap: 15px;
+    }
+}
 
     </style>
 
@@ -5197,4 +5213,5 @@ window.fetchWordPressPosts = fetchWordPressPosts;
   </script>
   
   </body>
+
 </html>
